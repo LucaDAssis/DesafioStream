@@ -1,0 +1,11 @@
+
+“
+java:S1104"PMake nome a static final constant or non-public and provide accessors if needed.(µ©Ñ¸8Ç•ˆ«ì1J$9f4cb63a-d346-40b2-b0c5-48ef8e609758
+
+java:S1104"[Make anoDeLancamento a static final constant or non-public and provide accessors if needed.(ã™ÿ™8˜²ˆ«ì1J$6b49b2b9-ca7b-48cf-a5ee-ccb2501bf942
+¤
+java:S1104"\Make incluindoNoPlano a static final constant or non-public and provide accessors if needed.(à¸¤ÿÿÿÿÿÿ8 Òˆ«ì1J$a0d7fea5-4e63-4762-af9a-3ff45168eaba
+~
+java:S1104	"\Make duracaoEmMinutos a static final constant or non-public and provide accessors if needed.(ğöú·ÿÿÿÿÿ8ïëˆ«ì1
+l	java:S106"+Replace this use of System.out by a logger.(Åı\8ûş€«ì1J$a768459d-959e-4591-93d5-1cdeac898c4c
+m	java:S106"+Replace this use of System.out by a logger.(Ñ¹°8üş€«ì1J$39445660-86c0-4a84-81e3-2fd968fac4f9
