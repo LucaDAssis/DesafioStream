@@ -7,3 +7,5 @@ P
  src/br/one/t6/modelos/Title.java,0\a\0af5950d7baceb4540198dc440d53122db563a92
 Q
 !src/br/one/t6/modelos/Series.java,a\8\a824c724074c6d7b9e251146775ef658e89772f5
+[
++src/br/one/t6/calculadoras/Calculadora.java,6\7\677b47737164d4d2a32c161bb15a61f59c60ac84
