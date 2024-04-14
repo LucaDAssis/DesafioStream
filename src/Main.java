@@ -1,4 +1,5 @@
 import br.one.t6.calculadoras.Calculadora;
+import br.one.t6.calculadoras.FiltroRecomendacao;
 import br.one.t6.modelos.Movie;
 
 public class Main {
@@ -31,6 +32,11 @@ public class Main {
         calculadora.inclui(youMovie);
         calculadora.inclui(ourMovie);
         System.out.println(calculadora.getCalculadoraDeTempo());
+
+        FiltroRecomendacao filtro = new FiltroRecomendacao();
+        filtro.filtrar(myMovie);
+        filtro.filtrar(youMovie);
+        filtro.filtrar(ourMovie);
 
     }
 }

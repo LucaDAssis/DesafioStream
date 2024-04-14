@@ -1,6 +1,8 @@
 package br.one.t6.modelos;
 
-public class Movie extends Title {
+import br.one.t6.calculadoras.Classificavel;
+
+public class Movie extends Title implements Classificavel {
 
     private String diretor;
 
@@ -10,5 +12,10 @@ public class Movie extends Title {
 
     public void setDiretor(String diretor) {
         this.diretor = diretor;
+    }
+
+    @Override
+    public int getClassificacao() {
+        return (int) (pegarMedia() / 2);
     }
 }

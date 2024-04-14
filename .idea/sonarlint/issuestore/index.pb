@@ -9,3 +9,9 @@ Q
 !src/br/one/t6/modelos/Series.java,a\8\a824c724074c6d7b9e251146775ef658e89772f5
 [
 +src/br/one/t6/calculadoras/Calculadora.java,6\7\677b47737164d4d2a32c161bb15a61f59c60ac84
+S
+#src/br/one/t6/modelos/Episodes.java,4\a\4aa30615952b0ddab752831691b7b4e913641042
+]
+-src/br/one/t6/calculadoras/Classificavel.java,6\3\63e7868f7b469d87df83efc4b244978266ebe02e
+b
+2src/br/one/t6/calculadoras/FiltroRecomendacao.java,c\f\cf3fada2a1f307a48a003f38c2d4bdeceb32561e
