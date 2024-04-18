@@ -1,6 +1,8 @@
 package br.one.t6.modelos;
 
 public class Series extends Title {
+
+
     private int epPorTemporada;
     private int temporadas;
     private int minutosPorEp;
