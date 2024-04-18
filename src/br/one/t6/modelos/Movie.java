@@ -6,9 +6,14 @@ public class Movie extends Title implements Classificavel {
 
     private String diretor;
 
+    public Movie(String nome, int anoDeLancamento) {
+        super(nome, anoDeLancamento);
+    }
+
     public String getDiretor() {
         return diretor;
     }
+
 
     public void setDiretor(String diretor) {
         this.diretor = diretor;
@@ -17,5 +22,10 @@ public class Movie extends Title implements Classificavel {
     @Override
     public int getClassificacao() {
         return (int) (pegarMedia() / 2);
+    }
+
+    @Override
+    public String toString() {
+        return " Filme: ( " + this.getNome() + " )  Ano de Lançamento: " + this.getAnoDeLancamento();
     }
 }

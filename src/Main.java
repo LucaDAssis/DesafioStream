@@ -9,24 +9,17 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
-        Movie myMovie = new Movie();
-        myMovie.setNome("Tubarão");
-        myMovie.setAnoDeLancamento(1975);
+        Movie myMovie = new Movie("Tubarão", 1975);
         myMovie.setDuracaoEmMinutos(124);
 
-        Movie youMovie = new Movie();
-        youMovie.setNome("Tubarão 2");
-        youMovie.setAnoDeLancamento(1975);
+        Movie youMovie = new Movie("Tubarão 2", 1975);
         youMovie.setDuracaoEmMinutos(200);
 
-        Movie ourMovie = new Movie();
-        ourMovie.setNome("Tubarão 3");
-        ourMovie.setAnoDeLancamento(1998);
+        Movie ourMovie = new Movie("Tubarão 3", 1998);
         ourMovie.setDuracaoEmMinutos(180);
         ourMovie.avalia(7);
 
-        Series mySerie = new Series();
-        mySerie.setNome("lost");
+        Series mySerie = new Series("Lost", 2000);
         mySerie.setTemporadas(8);
         mySerie.setEpPorTemporada(10);
         mySerie.setMinutosPorEp(45);
@@ -62,12 +55,14 @@ public class Main {
         filtro.filtrar(ourMovie);
         filtro.filtrar(episodes);
 
-        ArrayList<Movie> filmes = new ArrayList<>();
-        filmes.add(myMovie);
-        filmes.add(youMovie);
-        filmes.add(ourMovie);
-        System.out.println("Primeiro Filme é! " + filmes.get(0).getNome());
-        System.out.println("Quantos Filmes Temos na Lista? " + filmes.size());
+        ArrayList<Movie> listaDeFilmes = new ArrayList<>();
+        listaDeFilmes.add(myMovie);
+        listaDeFilmes.add(youMovie);
+        listaDeFilmes.add(ourMovie);
+        System.out.println("Primeiro Filme é! " + listaDeFilmes.get(0).getNome());
+        System.out.println("Quantos Filmes Temos na Lista? " + listaDeFilmes.size());
+        System.out.println(listaDeFilmes);
+        System.out.println(listaDeFilmes.get(0));
 
     }
 }
