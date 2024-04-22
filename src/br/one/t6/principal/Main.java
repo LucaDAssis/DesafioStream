@@ -1,3 +1,5 @@
+package br.one.t6.principal;
+
 import br.one.t6.calculadoras.Calculadora;
 import br.one.t6.calculadoras.FiltroRecomendacao;
 import br.one.t6.modelos.Episodes;

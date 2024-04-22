@@ -1,6 +1,6 @@
 package br.one.t6.modelos;
 
-public class Title {
+public class Title implements Comparable<Title> {
     private String nome;
     private int anoDeLancamento;
     private boolean incluindoNoPlano;
@@ -63,5 +63,10 @@ public class Title {
 
     public double pegarMedia(){
         return somaDasAvaliacoes / totalDeAvaliacao;
+    }
+
+    @Override
+    public int compareTo(Title outroTitulo) {
+        return this.getNome().compareTo(outroTitulo.getNome());
     }
 }

@@ -1,4 +1,6 @@
 
-L	java:S1062"+Replace this use of System.out by a logger.(ÿ€¹üÿÿÿÿ8÷Ü¼Õì1
-G	java:S1063"+Replace this use of System.out by a logger.(õí¿8ùÜ¼Õì1
-L	java:S1064"+Replace this use of System.out by a logger.(º«¶¬üÿÿÿÿ8ıÜ¼Õì1
+¡
+java:S1210E"YOverride "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.(á¹›˜ûÿÿÿÿ8³ÀåÁğ1J$a38e16f2-1ac7-46b3-a755-1f00786202f4
+r	java:S1066"+Replace this use of System.out by a logger.(ÿ€¹üÿÿÿÿ8÷Ü¼Õì1J$747ad0bf-afd3-4962-b964-c2e57d8262ad
+m	java:S1067"+Replace this use of System.out by a logger.(õí¿8ùÜ¼Õì1J$6d3bb13c-7ce8-44f8-88cd-953c687d93e0
+r	java:S1068"+Replace this use of System.out by a logger.(º«¶¬üÿÿÿÿ8ıÜ¼Õì1J$d235aaad-1f48-49fb-ab02-a883502d1607

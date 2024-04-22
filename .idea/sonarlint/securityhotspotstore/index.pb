@@ -1,6 +1,4 @@
 
-=
-src/Main.java,9\2\924f089edb4af5ee45c8a9d1129cd28e2b368138
 P
  src/br/one/t6/modelos/Movie.java,0\d\0db18102880fe87b6c70afefdfba2be7ed58626f
 P
@@ -15,3 +13,7 @@ S
 -src/br/one/t6/calculadoras/Classificavel.java,6\3\63e7868f7b469d87df83efc4b244978266ebe02e
 b
 2src/br/one/t6/calculadoras/FiltroRecomendacao.java,c\f\cf3fada2a1f307a48a003f38c2d4bdeceb32561e
+Q
+!src/br/one/t6/principal/Main.java,9\5\95392837af6052cd6efc2207ec57542c9b01d8e4
+Y
+)src/br/one/t6/principal/mainComLista.java,2\a\2acaf6f061cc4a6e460ec27412a5d89b386ace31
