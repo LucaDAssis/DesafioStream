@@ -7,12 +7,13 @@ import br.one.t6.modelos.Title;
 import java.awt.color.ColorSpace;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 
 public class mainComLista {
     public static void main(String[] args) {
         Movie myMovie = new Movie("Tubarão", 1975);
         myMovie.avalia(9);
-        Movie youMovie = new Movie("Tubarão 2", 1975);
+        Movie youMovie = new Movie("Tubarão 2", 1976);
         youMovie.avalia(8);
         Movie ourMovie = new Movie("Tubarão 3", 1998);
         ourMovie.avalia(7);
@@ -39,6 +40,10 @@ public class mainComLista {
         System.out.println(buscarPorArtista);
 
         Collections.sort(lista);
+        System.out.println(lista);
+
+        lista.sort(Comparator.comparing(Title::getAnoDeLancamento));
+        System.out.println("Ordenando Por Ano de Lançamento!!");
         System.out.println(lista);
     }
 }

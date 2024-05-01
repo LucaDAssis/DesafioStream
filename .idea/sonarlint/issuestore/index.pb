@@ -17,3 +17,5 @@ Q
 !src/br/one/t6/principal/Main.java,9\5\95392837af6052cd6efc2207ec57542c9b01d8e4
 Y
 )src/br/one/t6/principal/mainComLista.java,2\a\2acaf6f061cc4a6e460ec27412a5d89b386ace31
+Y
+)src/br/one/t6/principal/mainComBusca.java,c\0\c0545fe54b2dbd13b0d0ce904599921c527cfc32

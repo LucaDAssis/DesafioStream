@@ -35,4 +35,9 @@ public class Series extends Title {
     public void setMinutosPorEp(int minutosPorEp) {
         this.minutosPorEp = minutosPorEp;
     }
+
+    @Override
+    public String toString() {
+        return "Série: " + this.getNome() + "(" + this.getAnoDeLancamento() + ")";
+    }
 }

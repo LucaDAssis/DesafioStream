@@ -1,7 +1,11 @@
 package br.one.t6.modelos;
 
+import com.google.gson.annotations.SerializedName;
+
 public class Title implements Comparable<Title> {
+    @SerializedName("Title")
     private String nome;
+    @SerializedName("Year")
     private int anoDeLancamento;
     private boolean incluindoNoPlano;
     private double somaDasAvaliacoes;
@@ -68,5 +72,12 @@ public class Title implements Comparable<Title> {
     @Override
     public int compareTo(Title outroTitulo) {
         return this.getNome().compareTo(outroTitulo.getNome());
+    }
+
+    @Override
+    public String toString() {
+        return "nome='" + nome + '\'' +
+                ", anoDeLancamento=" + anoDeLancamento +
+                '}';
     }
 }
